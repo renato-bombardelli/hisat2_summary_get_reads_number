@@ -58,15 +58,7 @@ def get_reads_aligned(total, conc_1time, conc_more, disc_1time, new_total, disc_
     return(f'The number of aligned reads is: {reads_aligned}')
 
 
-print('IAC inoc rep1')
-print(get_reads_aligned(2594261, 22273, 1909, 85, 5139988, 1247, 1367, 2570079))
-print('IAC inoc rep2')
-print(get_reads_aligned(7297868, 7321, 1720, 21, 14577612, 1101, 2137, 7288827))
-print('IAC inoc rep3')
-print(get_reads_aligned(8112783, 4864, 3821, 13, 16208170, 1618, 3780, 8104098))
-print('SP inoc rep1')
-print(get_reads_aligned(8896637, 16559, 3942, 38, 17752196, 2130, 3354, 8876136))
-print('SP inoc rep2')
-print(get_reads_aligned(11262410, 18665, 4223, 25, 22478994, 2352, 4078, 11239522))
-print('SP inoc rep3')
-print(get_reads_aligned(9747096, 29659, 6883, 70, 19420968, 3308, 4832, 9710554))
+print(get_reads_aligned(2594261, 22273, 1909, 85, 5139988, 1247, 1367, 2570079, treatment='IAC inoc rep1'))
+print(get_reads_aligned(7297868, 7321, 1720, 21, 14577612, 1101, 2137, 7288827, treatment='IAC inoc rep2'))
+print(get_reads_aligned(8112783, 4864, 3821, 13, 16208170, 1618, 3780, 8104098, treatment='IAC inoc rep3'))
+
